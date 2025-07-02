@@ -21,7 +21,12 @@ interface SidebarProps {
     bio: string;
     resumeUrl: string;
   };
-  socialLinks: { name: string; icon: any; url: string; username: string }[];
+  socialLinks: {
+    name: string;
+    icon: React.ElementType;
+    url: string;
+    username: string;
+  }[];
 }
 
 export default function PortfolioSidebar({
