@@ -21,9 +21,9 @@ export default function ContactSection({ socialLinks }: ContactSectionProps) {
       className="px-6 pt-16 bg-gradient-to-br from-blue-dark/10 via-blue-light/5 to-background mb-8"
     >
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Let's connect</h2>
+        <h2 className="text-3xl font-bold mb-6">Let&apos;s connect</h2>
         <p className="text-muted-foreground mb-8">
-          Available for full-time roles or freelance projects. Let's build
+          Available for full-time roles or freelance projects. Let&apos;s build
           something useful.
         </p>
         <div className="flex gap-4 justify-center">

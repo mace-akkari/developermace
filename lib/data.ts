@@ -16,7 +16,7 @@ export const personalInfo = {
   email: "developer.mace@gmail.com",
   location: "London",
   avatar: "/images/portfolio-avatar.png",
-  bio: "Full-stack developer who builds fast, modern web apps using Next.js, React, and Tailwind CSS. I care about clean code, great UX, and delivering features that actually solve problems. Whether I'm working on my own or as part of a team, I thrive on turning ideas into useful products.",
+  bio: "Full-stack developer who builds fast, modern web apps using Next.js, React, and Tailwind CSS. I care about clean code, great UX, and delivering features that actually solve problems. Whether I&apos;m working on my own or as part of a team, I thrive on turning ideas into useful products.",
   resumeUrl: "/images/maceAkkari-CV.pdf",
 };
 

@@ -14,7 +14,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Code that's clean.
+          Code that&apos;s clean.
           <span className="text-primary">Products that work.</span>
         </motion.h1>
         <motion.p
