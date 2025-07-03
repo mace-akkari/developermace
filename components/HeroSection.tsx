@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
         >
           Code that&apos;s clean.
-          <span className="text-primary">Products that work.</span>
+          <span className="text-primary">Solving real problems.</span>
         </motion.h1>
         <motion.p
           className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-center"
