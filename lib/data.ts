@@ -141,13 +141,13 @@ export const experiences = [
 
 export const projects = [
   {
-    title: "The Martian",
+    title: "Buy The Hour",
     description:
-      "After watching the film The Martian, I decided to build a scene from it.",
-    image: "/images/TheMartian.png",
-    technologies: ["React", "JavaScript", "CSS"],
-    liveUrl: "https://the-martian.vercel.app/",
-    githubUrl: "https://github.com/mace-akkari/The-Martian",
+      "A finance app that turns money into hours and tracks purchases in an inventory.",
+    image: "/images/BuyTheHour.png",
+    technologies: ["Next.js", "FireBase", "Tailwind CSS", "Shadcn"],
+    liveUrl: "https://buy-the-hour.vercel.app",
+    githubUrl: "https://github.com/mace-akkari/buy-the-hour",
     featured: true,
   },
   {
@@ -160,13 +160,13 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Mace Blogs",
+    title: "The Martian",
     description:
-      "A blog site where posts require approval in Sanity before being published.",
-    image: "/images/MaceBlogs.png",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity"],
-    liveUrl: "https://next-js-blog-site-tau.vercel.app/",
-    githubUrl: "https://github.com/mace-akkari/next.js_blog_site",
+      "After watching the film The Martian, I decided to build a scene from it.",
+    image: "/images/TheMartian.png",
+    technologies: ["React", "JavaScript", "CSS"],
+    liveUrl: "https://the-martian.vercel.app/",
+    githubUrl: "https://github.com/mace-akkari/The-Martian",
     featured: false,
   },
   {
