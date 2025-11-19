@@ -68,16 +68,18 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                   ))}
                 </div>
                 <div className="flex gap-2">
-                  <Button size="sm" asChild>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-4 h-4 mr-1" />
-                      Live Demo
-                    </a>
-                  </Button>
+                  {project.liveUrl && (
+                    <Button size="sm" asChild>
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-1" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  )}
                   {project.githubUrl && (
                     <Button size="sm" variant="outline" asChild>
                       <a

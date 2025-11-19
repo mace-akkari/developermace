@@ -144,7 +144,7 @@ export const projects = [
     title: "Track My Progress",
     description:
       "A gym app that lets users track their training sessions like a journal.",
-    image: "/images/WhatsApp.png",
+    image: "/images/trackmyprogress.png",
     technologies: [
       "Next.js",
       "Tailwind CSS",
