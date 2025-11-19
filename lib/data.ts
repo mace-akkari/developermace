@@ -16,7 +16,7 @@ export const personalInfo = {
   email: "developer.mace@gmail.com",
   location: "London",
   avatar: "/images/portfolio-avatar.png",
-  bio: "Full-stack developer who builds fast, modern web apps using Next.js, React, and Tailwind CSS. I care about clean code, great UX, and delivering features that actually solve problems. Whether I&apos;m working on my own or as part of a team, I thrive on turning ideas into useful products.",
+  bio: "Full-stack developer who builds fast, modern web apps using Next.js, React, and Tailwind CSS. I care about clean code, great UX, and delivering features that actually solve problems. Whether I'm working on my own or as part of a team, I thrive on turning ideas into useful products.",
   resumeUrl: "/images/maceAkkari-CV.pdf",
 };
 
@@ -141,11 +141,27 @@ export const experiences = [
 
 export const projects = [
   {
+    title: "Track My Progress",
+    description:
+      "A gym app that lets users track their training sessions like a journal.",
+    image: "/images/WhatsApp.png",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Firebase/Firestore",
+      "Material-UI",
+    ],
+    liveUrl: false,
+    githubUrl: "https://github.com/mace-akkari/trackmyprogr",
+    featured: false,
+    status: "inActiveDevelopment",
+  },
+  {
     title: "Buy The Hour",
     description:
       "A finance app that turns money into hours and tracks purchases in an inventory.",
     image: "/images/BuyTheHour.png",
-    technologies: ["Next.js", "FireBase", "Tailwind CSS", "Shadcn"],
+    technologies: ["Next.js", "Firebase/Firestore", "Tailwind CSS", "Shadcn"],
     liveUrl: "https://buy-the-hour.vercel.app",
     githubUrl: "https://github.com/mace-akkari/buy-the-hour",
     featured: true,
@@ -167,16 +183,6 @@ export const projects = [
     technologies: ["React", "JavaScript", "CSS"],
     liveUrl: "https://the-martian.vercel.app/",
     githubUrl: "https://github.com/mace-akkari/The-Martian",
-    featured: false,
-  },
-  {
-    title: "WhatsApp Chat",
-    description:
-      "A WhatsApp-style chat app with Google login and persistent local chat history.",
-    image: "/images/WhatsApp.png",
-    technologies: ["Next.js", "CSS", "Firebase", "Material-UI"],
-    liveUrl: "https://whatsapp-mace-akkari.vercel.app/",
-    githubUrl: "https://github.com/mace-akkari/whatsapp-next.js",
     featured: false,
   },
 ];

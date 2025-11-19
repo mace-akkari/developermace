@@ -18,9 +18,10 @@ type Project = {
   description: string;
   image: string;
   technologies: string[];
-  liveUrl: string;
+  liveUrl?: string;
   githubUrl?: string;
   featured: boolean;
+  status?: "inActiveDevelopment";
 };
 
 type ProjectsSectionProps = {
@@ -47,6 +48,11 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                 />
                 {project.featured && (
                   <Badge className="absolute top-2 right-2">Featured</Badge>
+                )}
+                {project.status === "inActiveDevelopment" && (
+                  <Badge className="absolute top-2 right-2">
+                    In Active Development
+                  </Badge>
                 )}
               </div>
               <CardHeader>
