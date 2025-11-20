@@ -1,3 +1,5 @@
+import type { Project } from "@/lib/types/project";
+
 import {
   Globe,
   Server,
@@ -139,7 +141,7 @@ export const experiences = [
   },
 ];
 
-export const projects = [
+export const projects: Project[] = [
   {
     title: "Track My Progress",
     description:
@@ -151,7 +153,6 @@ export const projects = [
       "Firebase/Firestore",
       "Material-UI",
     ],
-    liveUrl: false,
     githubUrl: "https://github.com/mace-akkari/trackmyprogr",
     featured: false,
     status: "inActiveDevelopment",

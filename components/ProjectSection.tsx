@@ -1,5 +1,7 @@
 "use client";
 
+import type { Project } from "@/lib/types/project";
+
 import {
   Card,
   CardContent,
@@ -12,17 +14,6 @@ import { Button } from "@/components/ui/button";
 import GitHubIcon from "@/components/icons/GitHub";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
-
-type Project = {
-  title: string;
-  description: string;
-  image: string;
-  technologies: string[];
-  liveUrl?: string;
-  githubUrl?: string;
-  featured: boolean;
-  status?: "inActiveDevelopment";
-};
 
 type ProjectsSectionProps = {
   projects: Project[];
