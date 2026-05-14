@@ -6,5 +6,5 @@ export type Project = {
   liveUrl?: string;
   githubUrl?: string;
   featured: boolean;
-  status?: "inActiveDevelopment";
+  status?: "live" | "activeDevelopment";
 };

@@ -37,14 +37,17 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                   height={200}
                   className="w-full h-48 object-cover"
                 />
-                {project.featured && (
-                  <Badge className="absolute top-2 right-2">Featured</Badge>
-                )}
-                {project.status === "inActiveDevelopment" && (
-                  <Badge className="absolute top-2 right-2">
-                    In Active Development
-                  </Badge>
-                )}
+                <div className="absolute top-2 right-2 flex gap-2">
+                  {project.featured && <Badge>Featured</Badge>}
+
+                  {project.status && (
+                    <Badge>
+                      {project.status === "live"
+                        ? "Live"
+                        : "Active Development"}
+                    </Badge>
+                  )}
+                </div>
               </div>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
@@ -67,7 +70,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                         rel="noopener noreferrer"
                       >
                         <ExternalLink className="w-4 h-4 mr-1" />
-                        Live Demo
+                        Visit Site
                       </a>
                     </Button>
                   )}
