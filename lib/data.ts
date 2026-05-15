@@ -153,9 +153,10 @@ export const projects: Project[] = [
       "Firebase/Firestore",
       "Material-UI",
     ],
+    liveUrl: "https://www.trackmyprogress.fit/",
     githubUrl: "https://github.com/mace-akkari/trackmyprogr",
     featured: false,
-    status: "inActiveDevelopment",
+    status: "live",
   },
   {
     title: "Buy The Hour",
