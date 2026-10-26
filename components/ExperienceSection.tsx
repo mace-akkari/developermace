@@ -54,7 +54,7 @@ const ExperienceSection = ({ experiences }: ExperienceSectionProps) => {
                 <div className="space-y-1">
                   {exp.achievements?.map((achievement, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm">
-                      <Star className="w-3 h-3 text-blue-dark fill-blue-light" />
+                      <Star className="w-3 h-3 shrink-0 text-blue-dark fill-blue-light" />
                       {achievement}
                     </div>
                   ))}

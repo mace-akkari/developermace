@@ -15,6 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
         >
           Code that&apos;s clean.
+          <br />
           <span className="text-primary">Solving real problems.</span>
         </motion.h1>
         <motion.p
@@ -24,7 +25,7 @@ const HeroSection = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           I turn ideas into scalable web apps that are easy to use, quick to
-          ship, and built to last.
+          ship and built to last.
         </motion.p>
         <div className="flex gap-4 justify-center">
           <Button size="lg" asChild>
