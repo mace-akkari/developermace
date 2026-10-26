@@ -20,7 +20,7 @@ export const personalInfo = {
   location: "London",
   avatar: "/images/portfolio-avatar.png",
   bio: "Full-Stack Software Engineer with four years of commercial experience building fast, modern web apps using React, Next.js, TypeScript and Node.js. I care about clean code, great UX and delivering features that actually solve problems. From building production features to introducing automated testing and working on mobile apps, I enjoy turning ideas into useful products, whether I'm working independently or as part of a team.",
-  resumeUrl: "/images/maceAkkari-CV.pdf",
+  resumeUrl: "/images/Mace.Akkari_Developer.CV.pdf",
 };
 
 export const socialLinks = [
